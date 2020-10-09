@@ -1,0 +1,215 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 56.25) {
+    html {
+        font-size: 50%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 37.5em) {
+    html {
+        font-size: 30%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color:black;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+/* card page starts */
+
+
+.ceo-container{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #BECCCE;
+}
+
+.ceo-heading{
+    font-size: 4.5rem;
+    color:green;
+    font-weight: 600;
+    padding-top:8rem;
+    padding-bottom:4rem;
+}
+
+.ceo-card{
+    width:70rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:3rem;
+    background-color: white;
+}
+
+/* .left-side-card{
+
+} */
+
+.ceo-img-box{
+    margin-left:auto;
+    margin-right:auto;
+    height:15rem;
+    width:15rem;
+    border-radius:50%;
+    margin-top:2rem;
+    margin-bottom:3rem;
+}
+.links{
+    margin:auto;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+.links-list{
+    margin-bottom: 1.5rem;
+}
+
+.links-list-el{
+    font-size: 1rem;
+    float:left;
+    margin-left: 2.7rem;
+    margin-bottom: 3rem;
+
+}
+
+/* .right-side-card{
+    
+} */
+
+.name{
+    font-size:2.5rem;
+    font-weight: 600;
+    margin-bottom:0.2rem;
+    color:green;
+}
+.position{
+    font-size:1.5rem;
+    font-weight: 600;
+    margin-bottom:2rem;
+    /* color:rgb(118, 113, 113); */
+    color:#F89C13;
+}
+
+.intro{
+    width:45rem;
+    font-size:1.5rem;
+    font-weight:600;
+    margin-bottom: 1.4rem;
+    color: purple;
+}
+
+.fa-facebook{
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.fa-linkedin{
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.hid-text{
+    /* display: none; */
+    padding-top: 3rem;
+    color:#BECCCE;
+}
+
+
+
+
+/* Footer stsrts here */
+
+.footer-container{
+    background-color:#1B1C1D ;
+    height:33rem;
+    display:flex;
+    flex-direction: column;
+    font-size:1.4rem;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-menu{
+    height:15rem;
+}
+.contact-us{
+    height:15rem;
+}
+.footer-heading{
+    color:white;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top:3.8rem;
+}
+.footer-list{
+    color:rgb(206, 191, 191);
+    list-style: none;
+}
+
+.iit-kgp{
+    color:rgb(206, 191, 191);
+}
+.logof-box{
+    margin-top: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4rem;
+    width: 4rem;
+}
+.copyright{
+    color:rgb(206, 191, 191);
+    text-align: center;
+    margin-top: 4rem;
+
+}
+

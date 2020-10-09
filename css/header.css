@@ -1,0 +1,114 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    font-weight:300;
+    font-size:2rem;
+    z-index:20;
+    height:8.5rem;
+    width:100%;
+    position: fixed;
+    text-transform: uppercase;
+    color:white;
+}
+
+.scroll-theme{
+    display:flex;
+    flex-direction: row;
+    font-weight:600;
+    font-size:2.5rem;
+    z-index:20;
+    height:8.5rem;
+    width:100%;
+    position: fixed;
+    background-color: white;
+    
+    /* box-shadow: ; */
+}
+.black{
+    color:black !important;
+}
+ul{
+    list-style: none;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+
+    
+}
+.link-hover:hover{
+    color:#F69A13;
+}
+.navbar-list{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height:8.5rem;
+    /* color:white; */
+}
+
+.logo-box{
+   flex:1;
+   display:flex;
+   justify-content: space-around;
+   align-items:center;
+   height:8.5rem;
+}
+
+/* .logo-img{
+ 
+} */
+
+
+.landing-page{
+    height: 120vh;
+    width:100vw;
+    background-image: url(../assets/landing-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    position: absolute;
+    top:50%;
+    lefT:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.main-heading{
+    font-family: "Lato", sans-serif;
+    font-size:6rem;
+    color:white;
+    margin-bottom:1.5rem;
+    font-weight:400;
+    letter-spacing: 2.5rem;
+    text-transform: uppercase;
+}
+
+.sub-heading{
+    font-family: "Lato", sans-serif;
+    font-size:2rem;
+    color:yellow;
+    font-weight:400;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+}
+
+.meet-btn{
+    font-size:2.3rem;
+    padding:1.7rem 1.9rem;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    margin-top:5rem;
+    background-color: transparent;
+    border: 0.3rem white solid;
+    color:white;
+}
+.meet-btn:hover{
+     background-color: white;
+     color:black;
+}

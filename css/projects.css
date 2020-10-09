@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 56.25) {
+    html {
+        font-size: 50%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 37.5em) {
+    html {
+        font-size: 30%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color:black;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* Landing page starts */
+
+
+/* Projects cards start here */
+
+
+.ceo-container{
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    height:25rem;
+}
+
+.ceo-heading{
+    font-size: 4.5rem;
+    color:black;
+    font-weight: 600;
+    margin-top:5rem;
+    margin-bottom:4rem;
+}
+
+
+
+/* footer starts here */
+
+.footer-container{
+    background-color:#1B1C1D ;
+    height:33rem;
+    display:flex;
+    flex-direction: column;
+    font-size:1.4rem;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-menu{
+    height:15rem;
+}
+.contact-us{
+    height:15rem;
+}
+.footer-heading{
+    color:white;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top:3.8rem;
+}
+.footer-list{
+    color:rgb(206, 191, 191);
+    list-style: none;
+}
+
+.iit-kgp{
+    color:rgb(206, 191, 191);
+}
+.logof-box{
+    margin-top: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4rem;
+    width: 4rem;
+}
+.copyright{
+    color:rgb(206, 191, 191);
+    text-align: center;
+    margin-top: 4rem;
+
+}
+

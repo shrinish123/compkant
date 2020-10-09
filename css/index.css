@@ -1,0 +1,179 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 56.25) {
+    html {
+        font-size: 50%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 37.5em) {
+    html {
+        font-size: 30%;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (min-width: 112.5em) {
+    html {
+        font-size: 75%;
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    color:black;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* Landing page starts */
+
+
+
+/* below landing page */
+
+.know-more-section{
+    width:100%;
+    display:flex;
+    height: 70rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.iitkgp-logo{
+    height:25rem;
+    width:45rem;
+    text-align: center;
+    background-color:white;
+    border-radius: 2rem;
+
+}
+
+.descp-box{
+    height:43rem;
+    width:48rem;
+    background-color: white;
+    padding:2rem;
+    border-radius: 1.5rem;
+}
+
+.secondary-heading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color:#F9A215;
+    margin-bottom:1.5rem;
+}
+
+.para{
+    font-size: 2rem;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 2rem;
+}
+
+.know-more-btn{
+    font-family:'Nunito';
+    outline: none;
+    padding:1.6rem 1.8rem;
+    background-color: #F9A215;
+    color:black;
+    font-size:2rem;
+    border:none;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.know-more-btn:hover{
+    background-color: black;
+    color:#F9A215;
+}
+
+.working-section{
+    height:60rem;
+    background-color: #BECCCE; 
+   
+}
+.working-heading{
+   
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight:600;
+    margin-bottom: 5rem;
+    margin-top:4rem;
+    padding-top:4rem;
+    color:green;
+    
+}
+.cards-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card1,.card2,.card3{
+    background-color: white;
+    width: 30rem;
+}
+.card-img-box{
+    text-align: center;
+    height:20rem;
+     width: 20rem;
+     margin-top:2rem;
+     margin-bottom:2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-img{
+     height:20rem;
+     width: 20rem;
+}
+.card-heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight:600;
+    height: 3.5rem;
+    margin-bottom:2rem;
+    color:green;
+}
+.card-des{
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:600;
+    height:5rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    color:  purple;
+}
+
