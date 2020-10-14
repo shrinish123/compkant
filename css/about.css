@@ -62,12 +62,11 @@ body {
     text-align: center;
     margin-left:auto;
     margin-right: auto;
-    background-color: #BECCCE;
 }
 
 .ceo-heading{
     font-size: 4.5rem;
-    color:green;
+    color:orangered;
     font-weight: 600;
     padding-top:8rem;
     padding-bottom:4rem;
@@ -83,6 +82,9 @@ body {
     margin-right: auto;
     margin-top:3rem;
     background-color: white;
+    border: 1px #888888 solid;
+    padding: 10px;
+    box-shadow: 6px 6px #888888;
 }
 
 /* .left-side-card{
@@ -146,12 +148,18 @@ body {
     font-size: 2.5rem;
     color: blue;
 }
+.fa-facebook:hover{
+    color:orange;
+}
+
 
 .fa-linkedin{
     font-size: 2.5rem;
     color: blue;
 }
-
+.fa-linkedin:hover{
+    color:orange;
+}
 .hid-text{
     /* display: none; */
     padding-top: 3rem;
@@ -163,53 +171,6 @@ body {
 
 /* Footer stsrts here */
 
-.footer-container{
-    background-color:#1B1C1D ;
-    height:33rem;
-    display:flex;
-    flex-direction: column;
-    font-size:1.4rem;
-}
 
-.info{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.main-menu{
-    height:15rem;
-}
-.contact-us{
-    height:15rem;
-}
-.footer-heading{
-    color:white;
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top:3.8rem;
-}
-.footer-list{
-    color:rgb(206, 191, 191);
-    list-style: none;
-}
-
-.iit-kgp{
-    color:rgb(206, 191, 191);
-}
-.logof-box{
-    margin-top: 3.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4rem;
-    width: 4rem;
-}
-.copyright{
-    color:rgb(206, 191, 191);
-    text-align: center;
-    margin-top: 4rem;
-
-}
-
+svg#freepik_stories-team-spirit:not(.animated) .animable {opacity: 0;}svg#freepik_stories-team-spirit.animated #freepik--background-complete--inject-582 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-team-spirit.animated #freepik--Floor--inject-582 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedRight;animation-delay: 0s;}svg#freepik_stories-team-spirit.animated #freepik--character-4--inject-582 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideDown;animation-delay: 0s;}svg#freepik_stories-team-spirit.animated #freepik--character-3--inject-582 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-team-spirit.animated #freepik--character-1--inject-582 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-team-spirit.animated #freepik--character-2--inject-582 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedLeft;animation-delay: 0s;}            @keyframes zoomOut {                0% {                    opacity: 0;                    transform: scale(1.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes lightSpeedRight {              from {                transform: translate3d(50%, 0, 0) skewX(-20deg);                opacity: 0;              }              60% {                transform: skewX(10deg);                opacity: 1;              }              80% {                transform: skewX(-2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }                    @keyframes slideDown {                0% {                    opacity: 0;                    transform: translateY(-30px);                }                100% {                    opacity: 1;                    transform: translateY(0);                }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes lightSpeedLeft {              from {                transform: translate3d(-50%, 0, 0) skewX(20deg);                opacity: 0;              }              60% {                transform: skewX(-10deg);                opacity: 1;              }              80% {                transform: skewX(2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }       

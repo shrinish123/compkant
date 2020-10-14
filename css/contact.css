@@ -74,116 +74,15 @@ a{
     text-decoration: none;
     
 }
-.navbar-list{
-    flex:3;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    height:13rem;
-    color:white;
-}
-
-.logo-box{
-   flex:1;
-   display:flex;
-   justify-content: space-around;
-   align-items:center;
-   height:13rem;
-}
-
-/* .logo-img{
- 
-} */
 
 
-.landing-page{
-    height: 120vh;
-    width:100vw;
-    background-image:linear-gradient(rgba(61, 55, 55, 0.531),rgba(86, 76, 76, 0.524)), url(../assets/about-landing.jpg);
-    background-size: cover;
-    background-position: center;
-}
 
-.heading{
-    position: absolute;
-    top:50%;
-    lefT:50%;
-    transform:translate(-50%,-50%);
-    text-align:center;
-}
 
-.main-heading{
-    /* font-family: "Roboto"; */
-    font-size:8.5rem;
-    color:white;
-    margin-bottom:1.5rem;
-    font-weight:600;
-}
 
-.sub-heading{
-    font-size:2.5rem;
-    color:white;
-    font-weight: 700;
-    margin-bottom: 2.5rem;
-}
-.meet-btn{
-    font-size:2.3rem;
-    padding:1.7rem 1.9rem;
-    outline:none;
-    border:none;
-    cursor: pointer;
-}
 
 
 /* foooter starts from here */
 
-.footer-container{
-    background-color:#1B1C1D ;
-    height:33rem;
-    display:flex;
-    flex-direction: column;
-    font-size:1.4rem;
-}
 
-.info{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.main-menu{
-    height:15rem;
-}
-.contact-us{
-    height:15rem;
-}
-.footer-heading{
-    color:white;
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top:3.8rem;
-}
-.footer-list{
-    color:rgb(206, 191, 191);
-    list-style: none;
-}
-
-.iit-kgp{
-    color:rgb(206, 191, 191);
-}
-.logof-box{
-    margin-top: 3.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4rem;
-    width: 4rem;
-}
-.copyright{
-    color:rgb(206, 191, 191);
-    text-align: center;
-    margin-top: 4rem;
-
-}
+svg#freepik_stories-social-strategy:not(.animated) .animable {opacity: 0;}svg#freepik_stories-social-strategy.animated #freepik--background-simple--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Plants--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Board--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedRight;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Character--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideLeft;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Chair--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Table--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedLeft;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Clock--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;animation-delay: 0s;}svg#freepik_stories-social-strategy.animated #freepik--Floor--inject-562 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}            @keyframes zoomOut {                0% {                    opacity: 0;                    transform: scale(1.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes slideUp {                0% {                    opacity: 0;                    transform: translateY(30px);                }                100% {                    opacity: 1;                    transform: inherit;                }            }                    @keyframes lightSpeedRight {              from {                transform: translate3d(50%, 0, 0) skewX(-20deg);                opacity: 0;              }              60% {                transform: skewX(10deg);                opacity: 1;              }              80% {                transform: skewX(-2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }                    @keyframes slideLeft {                0% {                    opacity: 0;                    transform: translateX(-30px);                }                100% {                    opacity: 1;                    transform: translateX(0);                }            }                    @keyframes lightSpeedLeft {              from {                transform: translate3d(-50%, 0, 0) skewX(20deg);                opacity: 0;              }              60% {                transform: skewX(-10deg);                opacity: 1;              }              80% {                transform: skewX(2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }                    @keyframes slideRight {                0% {                    opacity: 0;                    transform: translateX(30px);                }                100% {                    opacity: 1;                    transform: translateX(0);                }            }     

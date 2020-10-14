@@ -4,7 +4,7 @@ const navList =document.querySelector('.navbar-list')
 
 
 const secOneOptions = {
-    rootMargin:"-200px 0px 0px 0px"
+    rootMargin:"-650px 0px 0px 0px"
 };
 
 const secOneObserver= new IntersectionObserver((entries,secOneObserver)=>{
@@ -24,3 +24,4 @@ const secOneObserver= new IntersectionObserver((entries,secOneObserver)=>{
 },secOneOptions);
 
 secOneObserver.observe(sectionOne);
+

@@ -61,71 +61,65 @@ body {
 
 
 .ceo-container{
-    text-align: center;
-    margin-left:auto;
-    margin-right: auto;
-    height:25rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:4rem;
 }
 
-.ceo-heading{
-    font-size: 4.5rem;
-    color:black;
+.ceo-card{
+    width:95vw;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:6rem;
+    background-color: white;
+}
+
+
+.ceo-img-box{
+    margin-left:auto;
+    margin-right:auto;
+    height:35rem;
+    width:35rem;
+    margin-top:2rem;
+    margin-bottom:3rem;
+}
+
+.name{
+    font-size:2.5rem;
     font-weight: 600;
-    margin-top:5rem;
-    margin-bottom:4rem;
+    margin-bottom:0.2rem;
+    color:green;
+}
+.position{
+    font-size:1.5rem;
+    font-weight: 600;
+    margin-bottom:2rem;
+    /* color:rgb(118, 113, 113); */
+    color:#F89C13;
+}
+
+.intro{
+    width:45rem;
+    font-size:1.5rem;
+    font-weight:600;
+    margin-bottom: 1.4rem;
+    color: purple;
 }
 
 
 
 /* footer starts here */
 
-.footer-container{
-    background-color:#1B1C1D ;
-    height:33rem;
-    display:flex;
-    flex-direction: column;
-    font-size:1.4rem;
-}
 
-.info{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.main-menu{
-    height:15rem;
-}
-.contact-us{
-    height:15rem;
-}
-.footer-heading{
-    color:white;
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top:3.8rem;
-}
-.footer-list{
-    color:rgb(206, 191, 191);
-    list-style: none;
-}
+svg#freepik_stories-data-report:not(.animated) .animable {opacity: 0;}svg#freepik_stories-data-report.animated #freepik--background-complete--inject-1036 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideUp;animation-delay: 0s;}svg#freepik_stories-data-report.animated #freepik--Floor--inject-1036 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedRight;animation-delay: 0s;}svg#freepik_stories-data-report.animated #freepik--Screens--inject-1036 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedLeft;animation-delay: 0s;}svg#freepik_stories-data-report.animated #freepik--character-2--inject-1036 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-data-report.animated #freepik--character-1--inject-1036 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-data-report.animated #freepik--Plant--inject-1036 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideDown;animation-delay: 0s;}            @keyframes slideUp {                0% {                    opacity: 0;                    transform: translateY(30px);                }                100% {                    opacity: 1;                    transform: inherit;                }            }                    @keyframes lightSpeedRight {              from {                transform: translate3d(50%, 0, 0) skewX(-20deg);                opacity: 0;              }              60% {                transform: skewX(10deg);                opacity: 1;              }              80% {                transform: skewX(-2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }                    @keyframes lightSpeedLeft {              from {                transform: translate3d(-50%, 0, 0) skewX(20deg);                opacity: 0;              }              60% {                transform: skewX(-10deg);                opacity: 1;              }              80% {                transform: skewX(2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes zoomOut {                0% {                    opacity: 0;                    transform: scale(1.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes slideDown {                0% {                    opacity: 0;                    transform: translateY(-30px);                }                100% {                    opacity: 1;                    transform: translateY(0);                }            }      
 
-.iit-kgp{
-    color:rgb(206, 191, 191);
-}
-.logof-box{
-    margin-top: 3.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4rem;
-    width: 4rem;
-}
-.copyright{
-    color:rgb(206, 191, 191);
-    text-align: center;
-    margin-top: 4rem;
-
-}
-
+svg#freepik_stories-under-construction:not(.animated) .animable {opacity: 0;}svg#freepik_stories-under-construction.animated #freepik--background-complete--inject-1087 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;animation-delay: 0s;}svg#freepik_stories-under-construction.animated #freepik--Character--inject-1087 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;animation-delay: 0s;}svg#freepik_stories-under-construction.animated #freepik--Sign--inject-1087 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) lightSpeedLeft;animation-delay: 0s;}svg#freepik_stories-under-construction.animated #freepik--Crane--inject-1087 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideDown;animation-delay: 0s;}svg#freepik_stories-under-construction.animated #freepik--Fence--inject-1087 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;animation-delay: 0s;}svg#freepik_stories-under-construction.animated #freepik--Floor--inject-1087 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}            @keyframes slideRight {                0% {                    opacity: 0;                    transform: translateX(30px);                }                100% {                    opacity: 1;                    transform: translateX(0);                }            }                    @keyframes lightSpeedLeft {              from {                transform: translate3d(-50%, 0, 0) skewX(20deg);                opacity: 0;              }              60% {                transform: skewX(-10deg);                opacity: 1;              }              80% {                transform: skewX(2deg);              }              to {                opacity: 1;                transform: translate3d(0, 0, 0);              }            }                    @keyframes slideDown {                0% {                    opacity: 0;                    transform: translateY(-30px);                }                100% {                    opacity: 1;                    transform: translateY(0);                }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }       
